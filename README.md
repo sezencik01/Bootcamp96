@@ -43,9 +43,9 @@ HiseTown oyuncuların bir kasaba ortamında saklambaç oynadığı bir oyundur. 
 
 - **Sprint Notları**: 
 
-- Görevlendirilme
-- Oyunun temel mekaniklerinin kurulumu
-- Map'in tasarlanması
+- Görevlendirilme (5 puan)
+- Oyunun temel hikayesinin ve oynayışının kurulumu (5 puan)
+- Map'in tasarlanması (8 puan)
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 18
 
