@@ -74,9 +74,3 @@ HiseTown oyuncuların bir kasaba ortamında saklambaç oynadığı bir oyundur. 
 - Nelerin iyi gittiği ve hangi alanlarda iyileştirme yapılabileceği tartışılır.
 - Ekip içi işbirliği ve iletişim konuları ele alınır.
 - Proje süresince süreç iyileştirmeleri ve aksiyon planları belirlenir.
-
-
-
-# Sprint 3
-
----
