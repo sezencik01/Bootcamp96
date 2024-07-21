@@ -74,3 +74,33 @@ HiseTown oyuncuların bir kasaba ortamında saklambaç oynadığı bir oyundur. 
 - Nelerin iyi gittiği ve hangi alanlarda iyileştirme yapılabileceği tartışılır.
 - Ekip içi işbirliği ve iletişim konuları ele alınır.
 - Proje süresince süreç iyileştirmeleri ve aksiyon planları belirlenir.
+
+# Sprint 2
+
+- **Sprint Notları**: 
+
+- UI Tasarımı (6 Puan)
+- Map üzerinde ki assetlerin çeşitlendirilmesi. (6 Puan)
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 12
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 54 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 18 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz gidişata yönelik düzenlenmiştir. 
+
+- **Daily Scrum**: Düzenli olarak WhatsApp ve Discord üzerinden iletişime geçilmiştir.
+
+- **Sprint board update**: 
+
+- **Ürün Durumu**: 
+
+- **Sprint Review**: 
+- Tamamlanan işler gözden geçirilir ve geri bildirim alınır.
+- Yeni gereksinimler ve değişiklikler tartışılır.
+- Tamamlanmayan işler backlogda yeniden önceliklendirilir.
+
+
+- **Sprint Retrospective:**
+- İş bölümü net bir şekilde ayarlanır. 
+- Ekip içi işbirliği ve iletişim konuları ele alınır.
+- Süreç boyunca önceleklendirmeler belirlenir.
