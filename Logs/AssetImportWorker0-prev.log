@@ -1,30 +1,23 @@
-Unity Editor version:    2022.3.18f1 (d29bea25151d)
-Branch:                  2022.3/release
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 14.4 (Build 23E214)
-Darwin version:          23.4.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/aysesezendogan/Downloads/Bootcamp96
+C:/Users/DopingHafiza/Desktop/HiseTown
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49313
-Successfully changed project path to: /Users/aysesezendogan/Downloads/Bootcamp96
-/Users/aysesezendogan/Downloads/Bootcamp96
+61690
+Successfully changed project path to: C:/Users/DopingHafiza/Desktop/HiseTown
+C:/Users/DopingHafiza/Desktop/HiseTown
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,64 +49,67 @@ Successfully changed project path to: /Users/aysesezendogan/Downloads/Bootcamp96
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8636873408] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 4103166597 [EditorId] 4103166597 [Version] 1048832 [Id] OSXEditor(0,192.168.1.106) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21544]  Target information:
 
-Player connection [8636873408] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 4103166597 [EditorId] 4103166597 [Version] 1048832 [Id] OSXEditor(0,192.168.1.106) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21544]  * "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 866738520 [EditorId] 866738520 [Version] 1048832 [Id] WindowsEditor(7,MertMutlu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 11.28 ms, found 2 plugins.
+Player connection [21544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 8.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.18f1 (d29bea25151d)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/aysesezendogan/Downloads/Bootcamp96/Assets
+Initialize engine version: 2022.3.38f1 (c5d5a7410213)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DopingHafiza/Desktop/HiseTown/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
-Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5123
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002056 seconds.
-- Loaded All Assemblies, in  0.243 seconds
-Native extension for OSXStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006957 seconds.
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.169 seconds
-Domain Reload Profiling: 412ms
-	BeginReloadAssembly (80ms)
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 562ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (80ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (97ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (98ms)
-			TypeCache.Refresh (97ms)
-				TypeCache.ScanAssembly (87ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (169ms)
+	FinalizeReload (244ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (130ms)
+		SetupLoadedEditorAssemblies (191ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,179 +117,488 @@ Domain Reload Profiling: 412ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.407 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
+- Loaded All Assemblies, in  0.586 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.390 seconds
-Domain Reload Profiling: 797ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1100ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (182ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (290ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (391ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (516ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (292ms)
+		SetupLoadedEditorAssemblies (391ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (1.3 MB). Loaded Objects now: 4025.
-Memory consumption went from 155.4 MB to 154.1 MB.
-Total: 2.519375 ms (FindLiveObjects: 0.124792 ms CreateObjectMapping: 0.043833 ms MarkObjects: 2.099917 ms  DeleteObjects: 0.250250 ms)
+Unloading 3568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 4027.
+Memory consumption went from 145.0 MB to 143.7 MB.
+Total: 6.133900 ms (FindLiveObjects: 0.434200 ms CreateObjectMapping: 0.356800 ms MarkObjects: 4.668400 ms  DeleteObjects: 0.673000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1882.668748 seconds.
-  path: Assets/Low-Poly Medieval Market/Models/FBX Weapon market/blacksmith_hammer.fbx
-  artifactKey: Guid(08c36fd1bcfd64446a57573b7990d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Medieval Market/Models/FBX Weapon market/blacksmith_hammer.fbx using Guid(08c36fd1bcfd64446a57573b7990d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f232a185ed5eeffac39b211aba0739c4') in 0.073328 seconds
+  Time since last request: 688926.238507 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfddb1fa6e8d59d992e092cbe57c55d0') in 0.020612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.938303 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Anchor.fbx
+  artifactKey: Guid(0100267d95f3a41fd88e781cc9451d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Anchor.fbx using Guid(0100267d95f3a41fd88e781cc9451d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ddb6ce4dde18397148e153883997a38e') in 0.108391 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Low-Poly Medieval Market/Prefabs/Weapons/blacksmith_hammer.prefab
-  artifactKey: Guid(bceb571a8d099a343a86ddb624f88303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Medieval Market/Prefabs/Weapons/blacksmith_hammer.prefab using Guid(bceb571a8d099a343a86ddb624f88303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb615859ab873a164deb406f77ecc9c9') in 0.048022 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Ship(Black)02.fbx
+  artifactKey: Guid(8d6dbd87dab5940518b725ad5a336c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Ship(Black)02.fbx using Guid(8d6dbd87dab5940518b725ad5a336c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6415b0a625b21b029521fbbab6f634f5') in 0.032399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Treasure chest 1.fbx
+  artifactKey: Guid(e00f8f6d400624c0c8e44dc7fc8b4c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Treasure chest 1.fbx using Guid(e00f8f6d400624c0c8e44dc7fc8b4c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '966a82186d543bbc39ac49bd51ea9d16') in 0.027987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Ship(Blue)01.fbx
+  artifactKey: Guid(b97aeadf081a7407292b1d0a567f576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Ship(Blue)01.fbx using Guid(b97aeadf081a7407292b1d0a567f576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3159bcbb9352e5edfc27ae153a0b7b32') in 0.017649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Treasure chest(With Gold).fbx
+  artifactKey: Guid(5017273c0aebd45d1b6c6adf9cbc9403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Treasure chest(With Gold).fbx using Guid(5017273c0aebd45d1b6c6adf9cbc9403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99cecfcb3993fb9b2c43134e02519021') in 0.024348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Plam Tree01.fbx
+  artifactKey: Guid(96999d95065c3428fb46394fb9b4e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Plam Tree01.fbx using Guid(96999d95065c3428fb46394fb9b4e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fac43f9cefe128f80114c771fabc4c78') in 0.015775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Ship(Red)02.fbx
+  artifactKey: Guid(780d22c4ab6dc42b0a1e16d13613f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Ship(Red)02.fbx using Guid(780d22c4ab6dc42b0a1e16d13613f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64ed617883a065dccacc083aa6426517') in 0.024070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Ship(Blue)02.fbx
+  artifactKey: Guid(c28d539ca587549e989f27a1e1c4c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Ship(Blue)02.fbx using Guid(c28d539ca587549e989f27a1e1c4c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95d5fa5fa9f435d8dd8dfe9e74a4d10b') in 0.015507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Ship(Whiite)03.fbx
+  artifactKey: Guid(11589e0a48be84b339bf205f1dcf9714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Ship(Whiite)03.fbx using Guid(11589e0a48be84b339bf205f1dcf9714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc1af04f33f32cea1fb7dcaa14f99966') in 0.016408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Boat.fbx
+  artifactKey: Guid(207737a4c1edb4b45be34869124f04ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Boat.fbx using Guid(207737a4c1edb4b45be34869124f04ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '56ec3584e75a466e7dcfc5c62ffa44b7') in 0.027447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Models/Break Ship.fbx
+  artifactKey: Guid(b71ead52cb89f40c28e9495fd5ee0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Models/Break Ship.fbx using Guid(b71ead52cb89f40c28e9495fd5ee0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbeaa83d01906bac27950f55bbb99f33') in 0.023877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.996348 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Materials/Ground.mat
+  artifactKey: Guid(10067942a7ae04f84836f59e1445999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Materials/Ground.mat using Guid(10067942a7ae04f84836f59e1445999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fec8b98e2f11f5745c1ee806ba6d432') in 0.038712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.079613 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Anchor.prefab
+  artifactKey: Guid(af65fc78ebf294271a5c11dffbde5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Anchor.prefab using Guid(af65fc78ebf294271a5c11dffbde5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '63d4c06a20f57a4387e027674f14cc27') in 0.013619 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 924.673251 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab
-  artifactKey: Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab using Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1969945eeb84fa9d2638d18ac45e7ed5') in 0.303843 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Boat.prefab
+  artifactKey: Guid(edf6fe73ce49a48ee8efbaeb6647a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Boat.prefab using Guid(edf6fe73ce49a48ee8efbaeb6647a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e29ef7a0c88bd64f86ae48bf43fb0de') in 0.012908 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Pier_02.prefab
-  artifactKey: Guid(c4ce77fae258db1419fe426be4a51bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Pier_02.prefab using Guid(c4ce77fae258db1419fe426be4a51bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c616932b6601dcdc1caf965eb6f86b7') in 0.004553 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Break Ship.prefab
+  artifactKey: Guid(0f95aba98c07f443c833c5483fbc4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Break Ship.prefab using Guid(0f95aba98c07f443c833c5483fbc4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afb0636706d26db879a62b307e61828e') in 0.010847 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Plant_01.prefab
-  artifactKey: Guid(cb8023970bbd62147ba1b145685c0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Plant_01.prefab using Guid(cb8023970bbd62147ba1b145685c0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d507f886f26f060d219050b298a6717') in 0.017223 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)01.prefab
+  artifactKey: Guid(5179fd597ba994f25944443e397b7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)01.prefab using Guid(5179fd597ba994f25944443e397b7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '771c3b790062aa6e32934a09a9372516') in 0.011300 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Tent_01.prefab
-  artifactKey: Guid(a79f26c2c26a872468e9cc5925298ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Tent_01.prefab using Guid(a79f26c2c26a872468e9cc5925298ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc9f77d630d7fefa72d7d31a10b532e') in 0.005675 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Red)01.prefab
+  artifactKey: Guid(61414455c2b3642969a08164eb5f6a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Red)01.prefab using Guid(61414455c2b3642969a08164eb5f6a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5957033c674d300e7559af5ebdbb9e2d') in 0.011133 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab
-  artifactKey: Guid(13613d48b05008747b336f4a0568a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab using Guid(13613d48b05008747b336f4a0568a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407a032fdd6db6ecb9e36781739ab619') in 0.004486 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Black)02.prefab
+  artifactKey: Guid(04b02631dc5604aaa875821f7d6393bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Black)02.prefab using Guid(04b02631dc5604aaa875821f7d6393bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e2e713bdc62237f09008fb7aeba8010') in 0.011311 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Prefabs/GodRay_01 1.prefab
-  artifactKey: Guid(dbf55174092a60e47ac6486eee411288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Prefabs/GodRay_01 1.prefab using Guid(dbf55174092a60e47ac6486eee411288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3625e27dc1580606651b9b9535a3868') in 0.291884 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest(With Gold).prefab
+  artifactKey: Guid(8df63b871c3064092907ab219a6a9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest(With Gold).prefab using Guid(8df63b871c3064092907ab219a6a9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e191836d2e43db6c0a573e59c9cfafd') in 0.014124 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 265.286591 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Models/Barrel_04.fbx
-  artifactKey: Guid(05b8d3faa6a97524ea4a2260b027738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Models/Barrel_04.fbx using Guid(05b8d3faa6a97524ea4a2260b027738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b311090620f543f2782a1d0359d15f88') in 0.042562 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Ground.prefab
+  artifactKey: Guid(7f98616bd6bf84f06979fbf357048d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Ground.prefab using Guid(7f98616bd6bf84f06979fbf357048d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a6259a64e37b9e9df2a6a0e3cb2b916') in 0.013042 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Models/Plant_01.fbx
-  artifactKey: Guid(6fe3784b6fa1f4841a127220269aaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Models/Plant_01.fbx using Guid(6fe3784b6fa1f4841a127220269aaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd60103ee59705fa9ded9dcc0cbf58') in 0.030401 seconds
+  Time since last request: 0.000065 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Whiite)02.prefab
+  artifactKey: Guid(24663ab745b684d70b33a3c6718ae623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Whiite)02.prefab using Guid(24663ab745b684d70b33a3c6718ae623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e0f921e948f35cfefa18c39201efae4') in 0.013879 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Models/PalmTree_05.fbx
-  artifactKey: Guid(cfe9405cef691a84bb649ca2d5fbaed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Models/PalmTree_05.fbx using Guid(cfe9405cef691a84bb649ca2d5fbaed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40a80851070481e6b52af46685f12b7') in 0.029601 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Whiite)03.prefab
+  artifactKey: Guid(24c84ab79f65b4a1f84f7a6c81304816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Whiite)03.prefab using Guid(24c84ab79f65b4a1f84f7a6c81304816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '267639517c05d744b6ca02072d274a1f') in 0.014413 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Models/PirateSword_01.fbx
-  artifactKey: Guid(83d544c86a936044cbca247beeaa4c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Models/PirateSword_01.fbx using Guid(83d544c86a936044cbca247beeaa4c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3814d179a0ff8f78ebc89c720fd2bd') in 0.016091 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolyAngel-Mini Pirates Island/Prefabs/Cannon.prefab
+  artifactKey: Guid(5021d026bca774b16baea56a7ded4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyAngel-Mini Pirates Island/Prefabs/Cannon.prefab using Guid(5021d026bca774b16baea56a7ded4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c947dfa5fef4785d0cb2a6dae1cb6bf') in 0.014203 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Models/Plank_01.fbx
-  artifactKey: Guid(f9dc45da0de6c2c46bf15b7bb9429452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Models/Plank_01.fbx using Guid(f9dc45da0de6c2c46bf15b7bb9429452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4606978e66abd47b074bdc08aa6341b0') in 0.018634 seconds
+  Time since last request: 4.247559 seconds.
+  path: Assets/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_BG.mat
+  artifactKey: Guid(b3f65f6ef358d104d8fcad8b2e4ca086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_BG.mat using Guid(b3f65f6ef358d104d8fcad8b2e4ca086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b9732cf4fcdb6d725e1a0098507fad4') in 0.076297 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/LowPolyTropicalEnvironment_LITE/Models/Pier_02.fbx
-  artifactKey: Guid(5fad09914995871439e31efe5b1b7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyTropicalEnvironment_LITE/Models/Pier_02.fbx using Guid(5fad09914995871439e31efe5b1b7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d90ee6b09d7434f1d908541dd0f640c') in 0.015367 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_MAIN.mat
+  artifactKey: Guid(fd0f411072abac7438aba85e685bbb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_MAIN.mat using Guid(fd0f411072abac7438aba85e685bbb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13ee5d252629e27b94ed9e416c4517af') in 0.058475 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_Water.mat
+  artifactKey: Guid(555be96f1d043af4e91b0c58b7911767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_Water.mat using Guid(555be96f1d043af4e91b0c58b7911767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ba8f66fd777716229e9662d8bc56e6f') in 0.011999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.369 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1171ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.3 MB). Loaded Objects now: 4075.
+Memory consumption went from 139.5 MB to 138.2 MB.
+Total: 4.077300 ms (FindLiveObjects: 0.595900 ms CreateObjectMapping: 0.099800 ms MarkObjects: 3.033500 ms  DeleteObjects: 0.347000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.372 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.845 seconds
+Domain Reload Profiling: 1214ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.3 MB). Loaded Objects now: 4078.
+Memory consumption went from 139.5 MB to 138.2 MB.
+Total: 3.385200 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.265300 ms  DeleteObjects: 0.787400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
