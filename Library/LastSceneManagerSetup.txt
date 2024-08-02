@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/CaugtScene.unity
+=======
+- path: Assets/Supercyan Character Pack Free Sample/Scenes/PlayerScene.unity
+>>>>>>> PlayerControls
   isLoaded: 1
   isActive: 1
   isSubScene: 0
